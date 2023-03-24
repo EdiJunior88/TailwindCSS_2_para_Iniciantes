@@ -1,4 +1,4 @@
-<img src="img/tiago-matos-logo.svg" width="28%">
+<img src="img/tiago-matos-logo.svg" width="30%">
 <h2>Curso gratuito Tailwind CSS Versão 2.0</h2>
 <h3>Tiago Matos</h3>
 

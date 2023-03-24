@@ -1,4 +1,4 @@
-<img src="img/tiago-matos-logo.svg" width="40%">
+<img src="img/tiago-matos-logo.svg" width="30%">
 <h2>Curso gratuito Tailwind CSS Versão 2.0</h2>
 
 <p>Tailwind CSS é basicamente um utility-first CSS framework que prioriza a construção ultra-rápida de interfaces customizadas. </p>

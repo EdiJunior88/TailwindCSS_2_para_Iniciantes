@@ -547,11 +547,6 @@ video {
   background-color: rgb(197 66 245 / var(--tw-bg-opacity));
 }
 
-.bg-brand-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 16 64 / var(--tw-bg-opacity));
-}
-
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -593,6 +588,12 @@ video {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.laravue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity));
+  font-weight: 700;
 }
 
 .hover\:bg-gray-300:hover {

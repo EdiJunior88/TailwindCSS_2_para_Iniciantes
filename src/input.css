@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .laravue {
+    @apply bg-green-800 font-bold;
+  }
+}

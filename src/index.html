@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -9,18 +9,22 @@
   <title>Curso Gratuito de TailwindCSS</title>
 </head>
 
-<body class="bg-gray-100 dark:bg-gray-800 m-6 h-screen">
-  <h1 class="text-gray-700 dark:text-gray-300 hover:text-blue-700 hover:underline">Hello TailwindCSS</h1>
+<body class="bg-gray-400 dark:bg-gray-800">
+  <div class="container mx-auto px-4 py-8">
+    <h6 class="dark:text-gray-50 font-bold mb-2">Componente Card</h6>
 
-  <div class="group w-72 h-24 bg-brand-100 p-4 cursor-pointer">
-    <h4 class="font-bold group-hover:text-blue-300">Título do meu card</h4>
-    <p class="text-gray-500 group-hover:text-gray-800 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">
+      <div class="w-full bg-gray-200 dark:bg-gray-900 p-4 border-b border-gray-100 dark:border-gray-500">
+        <h4 class="font-bold dark:text-gray-50">Topo</h4>
+      </div>
+
+      <div class="p-4 dark:text-gray-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae deleniti nam, vero similique soluta ipsa cum maiores sed hic libero beatae molestias pariatur quasi dolor doloribus corrupti non nihil quas?</div>
+
+      <div class="w-full">
+        <h4 class="font-bold bg-gray-50 dark:text-gray-50 dark:bg-gray-900 p-3 border-t border-gray-200 dark:border-gray-500">Rodapé</h4>
+      </div>
+    </div>
   </div>
-
-  <br>
-
-  <input class="laravue hover:bg-gray-300 text-lg px-4 py-2 focus:text-red-300 border border-brand-200" type="text">
-
 </body>
 
 </html>

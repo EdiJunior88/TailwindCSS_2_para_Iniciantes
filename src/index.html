@@ -12,32 +12,32 @@
 <body class="bg-gray-50 text-gray-600">
   <!-- header -->
   <div>
-    <div class="container mx-auto px-4 h-24 flex items-center">
+    <div class="container max-w-5xl mx-auto px-4 h-24 flex items-center">
       <div class="font-black">
         LOGO
       </div>
 
-      <ul class="ml-auto space-x-4 flex items-center">
+      <ul class="ml-auto space-x-4 lg:flex lg:items-center grid grid-cols-2 gap-x-4 text-center">
         <li>
-          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+          <a href="#" class="text-gray-600 md:text-sm text-[11px] hover:text-gray-800 hover:underline">
             Como reservar
           </a>
         </li>
 
         <li>
-          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+          <a href="#" class="text-gray-600 md:text-sm text-[11px] hover:text-gray-800 hover:underline">
             Sobre nós
           </a>
         </li>
 
         <li>
-          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+          <a href="#" class="text-gray-600 md:text-sm text-[11px] hover:text-gray-800 hover:underline">
             Informações
           </a>
         </li>
 
         <li>
-          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+          <a href="#" class="text-gray-600 md:text-sm text-[11px] hover:text-gray-800 hover:underline">
             Contato
           </a>
         </li>
@@ -49,7 +49,7 @@
   <!-- banner -->
   <div class="imagem-fundo w-full">
     <div class="h-full px-4 flex items-center justify-center">
-      <div class="container flex flex-col items-center justify-center">
+      <div class="container max-w-5xl flex flex-col items-center justify-center">
         <div class="text-center">
           <h1 class="text-gray-200 text-3xl mb-2">
             Onde você quer ir?
@@ -61,20 +61,20 @@
         </div>
 
         <div class="mt-7">
-          <form class="space-x-4">
-            <select id="estado" class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-600">
+          <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+            <select id="estado" class="bg-gray-50 px-3 py-2 border md:text-sm text-[13px] border-gray-300 rounded text-gray-600">
               <option value="estado">
                 Escolha estado
               </option>
             </select>
 
-            <select id="cidade" class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-600">
+            <select id="cidade" class="bg-gray-50 px-3 py-2 border md:text-sm text-[13px] border-gray-300 rounded text-gray-600">
               <option value="cidade">
                 Escolha cidade
               </option>
             </select>
 
-            <button class="text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded items-center inline-flex">
+            <button class="col col-span-2 justify-center lg:col-span-1 md:text-sm text-[14px] text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded items-center inline-flex">
               <svg class="w-4 h4 mr-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
               </svg>
@@ -89,9 +89,9 @@
 
   <!-- Destaque resort -->
   <div>
-    <div class="container mx-auto px-4 py-20">
-      <div class="flex">
-        <div class="pr-10">
+    <div class="container max-w-5xl mx-auto px-4 md:py-20 py-5">
+      <div class="flex flex-col-reverse lg:flex-row">
+        <div class="lg:pr-10">
           <div class="text-sm text-gray-400 font-medium">
             RESORT EM DESTAQUE
           </div>
@@ -121,8 +121,8 @@
           </div>
         </div>
 
-        <div>
-          <img class="imagem-destaque" src="../src/imagens/Jatiuca-Hotel-Resort.jpg" alt="Jatiúca Hotel Resort">
+        <div class="lg:ml-auto mb-5 lg:mb-0 w-auto">
+          <img src="../src/imagens/Jatiuca-Hotel-Resort.jpg" alt="Jatiúca Hotel Resort">
         </div>
       </div>
     </div>
@@ -131,13 +131,13 @@
 
   <!-- Grid resorts -->
   <div>
-    <div class="container mx-auto px-4">
+    <div class="container max-w-5xl mx-auto px-4">
       <div>
         <h3 class="text-2xl text-gray-500 text-center font-semibold mb-8">
           Conheça mais resorts
         </h3>
 
-        <div class="grid grid-cols-4 grid-rows-2 gap-6">
+        <div class="md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6 space-y-6 md:space-y-0">
           <div class="relative col-span-2 row-span-2 rounded-lg overflow-hidden">
             <div class="absolute w-full bottom-0 pl-4 py-3 text-white font-bold backdrop-blur-sm backdrop-brightness-50">
               <p>Salinas Resort</p>
@@ -145,7 +145,7 @@
             <img class="w-full h-full object-cover" src="../src/imagens/Salinas-Resort.jpg" alt="Salinas Resort">
           </div>
 
-          <div class="relative col-span-2 h-52 rounded-lg overflow-hidden">
+          <div class="relative md:col-span-2 md:h-40 rounded-lg overflow-hidden">
             <div class="absolute w-full bottom-0 pl-4 py-3 text-white font-bold backdrop-blur-sm backdrop-brightness-50">
               <p>Iloa Resort</p>
             </div>
@@ -172,22 +172,22 @@
   <!-- Grid resorts -->
 
   <!-- Seleção hotéis resorts -->
-  <div class="py-20">
-    <div class="container mx-auto px-4 flex justify-center">
-      <form class="space-x-4">
-        <select id="estado" class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-600">
+  <div class="md:py-20 py-10">
+    <div class="container max-w-5xl mx-auto px-4 flex justify-center">
+      <form class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+        <select id="estado" class="bg-gray-50 px-3 py-2 border lg:text-sm text-[13px] border-gray-300 rounded text-gray-600">
           <option value="estado">
             Escolha estado
           </option>
         </select>
 
-        <select id="cidade" class="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-600">
+        <select id="cidade" class="bg-gray-50 px-3 py-2 border lg:text-sm text-[13px] border-gray-300 rounded text-gray-600">
           <option value="cidade">
             Escolha cidade
           </option>
         </select>
 
-        <button class="text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded items-center inline-flex">
+        <button class="col col-span-2 justify-center lg:col-span-1 lg:text-sm text-[14px] text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded items-center inline-flex">
           <svg class="w-4 h4 mr-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
           </svg>
@@ -200,7 +200,7 @@
 
   <!-- Rodapé -->
   <div class="border-t border-gray-200">
-    <div class="container mx-auto p-4 flex items-center justify-between">
+    <div class="container max-w-5xl mx-auto p-4 flex items-center justify-between">
       <div class="text-gray-400 font-black">
         LOGO
       </div>

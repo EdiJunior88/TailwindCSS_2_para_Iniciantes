@@ -69,4 +69,4 @@
 <hr>
 
 <h4><b>Aulas:</b> :vhs: 25 video-aulas (Total de 3hrs e 40min)</h4>
-<h4><b>Status do Curso:</b> :speech_balloon: Estudando</h4>
+<h4><b>Status do Curso:</b>✅ Concluído</h4> 

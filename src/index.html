@@ -13,13 +13,34 @@
   <!-- header -->
   <div>
     <div class="container mx-auto px-4 h-24 flex items-center">
-      <div class="font-black">LOGO</div>
+      <div class="font-black">
+        LOGO
+      </div>
 
       <ul class="ml-auto space-x-4 flex items-center">
-        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Como reservar</a></li>
-        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Sobre nós</a></li>
-        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Informações</a></li>
-        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">Contato</a></li>
+        <li>
+          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+            Como reservar
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+            Sobre nós
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+            Informações
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="text-sm text-gray-600 hover:text-gray-800 hover:underline">
+            Contato
+          </a>
+        </li>
       </ul>
     </div>
   </div>
@@ -30,17 +51,27 @@
     <div class="h-full px-4 flex items-center justify-center">
       <div class="container flex flex-col items-center justify-center">
         <div class="text-center">
-          <h1 class="text-gray-200 text-3xl mb-2">Onde você quer ir?</h1>
-          <p class="text-green-100">Escolha o estado e cidade para achar os melhores resorts.</p>
+          <h1 class="text-gray-200 text-3xl mb-2">
+            Onde você quer ir?
+          </h1>
+
+          <p class="text-green-100">
+            Escolha o estado e cidade para achar os melhores resorts.
+          </p>
         </div>
 
         <div class="mt-7">
           <form class="space-x-4">
             <select id="estado" class="bg-gray-50 px-3 py-2 border-gray-300 rounded text-gray-600">
-              <option value="estado">Escolha estado</option>
+              <option value="estado">
+                Escolha estado
+              </option>
             </select>
+
             <select id="cidade" class="bg-gray-50 px-3 py-2 border-gray-300 rounded text-gray-600">
-              <option value="cidade">Escolha cidade</option>
+              <option value="cidade">
+                Escolha cidade
+              </option>
             </select>
 
             <button class="text-yellow-800 bg-yellow-500 font-medium px-3 py-2 rounded items-center inline-flex">
@@ -61,13 +92,23 @@
     <div class="container mx-auto px-4 py-10">
       <div class="flex">
         <div class="pr-10">
-          <div class="text-sm text-gray-400 font-medium">RESORT EM DESTAQUE</div>
-          <div class="text-2xl">Jatiúca Hotel & Resort</div>
-          <div class="text-sm text-gray-400 font-medium mt-2">Hotel qualidade 5 estrelas</div>
+          <div class="text-sm text-gray-400 font-medium">
+            RESORT EM DESTAQUE
+          </div>
+          <div class="text-2xl">
+            Jatiúca Hotel & Resort
+          </div>
+          <div class="text-sm text-gray-400 font-medium mt-2">
+            Hotel qualidade 5 estrelas
+          </div>
           <div class="text-sm text-gray-400 font-medium mt-4">
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis assumenda quasi accusantium quisquam voluptas quas. Voluptatum totam accusamus praesentium amet sequi omnis cum sed consequatur veniam, aperiam eum saepe sunt.</p>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis assumenda quasi accusantium quisquam voluptas quas. Voluptatum totam accusamus praesentium amet sequi omnis cum sed consequatur veniam, aperiam eum saepe sunt.
+            </p>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, soluta fugiat. Minus in molestiae repellat cumque sunt voluptates impedit amet. Libero numquam ab optio eaque rerum sunt aspernatur tempore aliquid?</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, soluta fugiat. Minus in molestiae repellat cumque sunt voluptates impedit amet. Libero numquam ab optio eaque rerum sunt aspernatur tempore aliquid?
+            </p>
           </div>
 
           <div class="mt-4">
@@ -81,12 +122,54 @@
         </div>
 
         <div>
-          <img class="imagem-destaque" src="../src/imagens/Jatiuca-Hotel-Resort.jpg" alt="Jatiuca Hotel Resort">
+          <img class="imagem-destaque" src="../src/imagens/Jatiuca-Hotel-Resort.jpg" alt="Jatiúca Hotel Resort">
         </div>
       </div>
     </div>
   </div>
   <!-- Destaque resort -->
+
+  <!-- Grid resorts -->
+  <div>
+    <div class="container mx-auto px-4">
+      <div>
+        <h3 class="text-2xl text-gray-500 text-center font-semibold mb-8">
+          Conheça mais resorts
+        </h3>
+
+        <div class="grid grid-cols-4 grid-rows-2 gap-6">
+          <div class="relative col-span-2 row-span-2 rounded-lg overflow-hidden">
+            <div class="absolute w-full bottom-0 pl-4 py-3 text-white font-bold backdrop-blur-sm backdrop-brightness-50">
+              <p>Salinas Resort</p>
+            </div>
+            <img class="w-full h-full object-cover" src="../src/imagens/Salinas-Resort.jpg" alt="Salinas Resort">
+          </div>
+
+          <div class="relative col-span-2 h-52 rounded-lg overflow-hidden">
+            <div class="absolute w-full bottom-0 pl-4 py-3 text-white font-bold backdrop-blur-sm backdrop-brightness-50">
+              <p>Iloa Resort</p>
+            </div>
+            <img class="w-full h-full object-cover" src="../src/imagens/Iloa-Resort.jpg" alt="Iloa Resort">
+          </div>
+
+          <div class="relative rounded-lg overflow-hidden">
+            <div class="absolute w-full bottom-0 pl-4 py-3 text-white font-bold backdrop-blur-sm backdrop-brightness-50">
+              <p>Pratagy Beach Resort</p>
+            </div>
+            <img class="w-full h-full object-cover" src="../src/imagens/pratagy-beach-resort.jpg" alt="pratagy beach resort">
+          </div>
+
+          <div class="relative rounded-lg overflow-hidden">
+            <div class="absolute w-full bottom-0 pl-4 py-3 text-white font-bold backdrop-blur-sm backdrop-brightness-50">
+              <p>Hotel Praia Dourada Resort</p>
+            </div>
+            <img class="w-full h-full object-cover" src="../src/imagens/hotel-praia-dourada.jpg" alt="hotel praia dourada">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Grid resorts -->
 </body>
 
 </html>

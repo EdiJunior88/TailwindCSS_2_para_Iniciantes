@@ -8,7 +8,23 @@
 
 <hr>
 
-<strong>Link do projeto</strong>:</a>
+<strong>Link do projeto</strong>: <a href="https://edijunior88.github.io/TailwindCSS_2_para_Iniciantes/" target="_blank">https://edijunior88.github.io/TailwindCSS_2_para_Iniciantes/</a>
+
+<hr>
+
+<h3>Versão Desktop</h3>
+
+<br>
+
+<img src="./img/hotel-pagina-completa.jpg">
+
+<br>
+
+<h3>Versão Mobile</h3>
+
+<br>
+
+<img src="./img/hotel-pagina-completa-responsiva.jpg" width="30%">
 
 <hr>
 
